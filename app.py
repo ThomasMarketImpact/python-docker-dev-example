@@ -27,7 +27,7 @@ def on_startup():
 
 @app.get("/")
 def hello():
-    return "Hello, Docker!"
+    return "Hello, Docker!!! Hello World, FastAPI is cool and running on Docker"
 
 
 @app.post("/heroes/")
